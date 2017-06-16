@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form style 예제</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<h3>가입양식</h3>
+	<form method="POST" action="/signup">
+		<ul id="member_form">
+			<li>
+				<ul class="cols">
+					<li class="col1">아이디:</li>
+					<li class="col2"><input type="text" name="id"></li>
+				</ul>
+			</li>
+			<li>
+				<ul class="cols">
+					<li class="col1">비밀번호:</li>
+					<li class="col2"><input type="password" name="password"></li>
+				</ul>
+			</li>
+			<li>
+				<ul class="cols">
+					<li class="col1">비밀번호 확인:</li>
+					<li class="col2"><input type="password" name="password_check"></li>
+				</ul>
+			</li>
+			<li>
+				<ul class="cols">
+					<li class="col1">이름:</li>
+					<li class="col2"><input type="text" name="name"></li>
+				</ul>
+			</li>
+			<li>
+				<ul class="cols">
+					<li class="col1">성별:</li>
+					<li class="col2"><input type="radio" name="gender" checked>여성 <input type="radio" name="gender">남성</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="cols">
+					<li class="col1">휴대전화:</li>
+					<li class="col2"><input class="phone" type="text" name="phone1" value="010">-<input class="phone" type="text" name="phone2">-<input class="phone" type="text" name="phone3"></li>
+				</ul>
+			</li>
+			<li>
+				<ul class="cols">
+					<li class="col1">이메일:</li>
+					<li class="col2"><input type="text" name="email1">@<select name="email2">
+					<option value="none">선택</option>
+					<option value="naver"">naver.com</option>
+					<option value="hanmail">hanmail.net</option>
+					<option value="gmail">gmail.com</option>
+					<option value="other">직접입력</option>
+					</select></li>
+				</ul>
+			</li>
+			<li>
+				<ul class="cols">
+					<li class="col1">취미:</li>
+					<li class="col2"><input type="checkbox" name="hobby1">음악감상 <input type="checkbox" name="hobby2">독서 <input type="checkbox" name="hobby3">등산</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="cols">
+					<li class="col1">자기소개:</li>
+					<li class="col2"><textarea cols="35" rows="5" name="intro"></textarea></li>
+				</ul>
+			</li>
+			<li>
+				<ul class="cols">
+					<li class="col1">파일첨부:</li>
+					<li class="col2"><input type="file" name="file">*2MB까지 가능</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="cols">
+					<li class="col1"></li>
+					<li class="col2"><input type="submit" value="가입하기"></li>
+				</ul>
+			</li>
+		</ul>
+	</form>
+</body>
+</html>

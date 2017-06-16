@@ -1,0 +1,23 @@
+body {
+	/*background-color: #0000ff;*/
+	background-image: url("f150_1.jpg");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-attachment: fixed;
+	/*background:skyblue;
+	background:linear-gradient(150deg, blue, white, skyblue);
+	background:radial-gradient(circle, white, blue);*/
+}
+h1 {
+	background-color: #ffff00;
+}
+p {
+	background-color: #ffffff;
+}
+#cyan {
+	background-color: #00ffff;
+}
+li {
+	/*list-style-type: circle;*/
+	list-style-image: url("dot.png");
+}

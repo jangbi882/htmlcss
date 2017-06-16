@@ -1,0 +1,18 @@
+#position {
+	color:#ff0000;
+	font-weight: bold;
+}
+#weather {
+	color:#0000ff;
+	font-weight: bold;
+}
+#kind {
+	color:#00ff00;
+	font-style: italic;
+	text-decoration: underline;
+}
+.red {
+	color:#ff0000;
+	font-weight: bold;
+	text-decoration: underline;
+}

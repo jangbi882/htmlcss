@@ -1,0 +1,29 @@
+h3 {
+	color:#ff0000;
+	font-size:24px;
+}
+h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+h1 {
+	color:#0000ff;
+	text-shadow: 3px 3px 5px #444444;
+	font-style:italic;
+	font-weight: bold;
+}
+a.link {
+	color:#0000ff;
+	text-decoration: none;
+}
+a.visited {
+	color:#00ff00;
+}
+a.hover {
+	color:#ff0000;
+	font-weight: bold;
+	text-decoration: underline;
+}
+a.active {
+	color:#00ffff;
+}
